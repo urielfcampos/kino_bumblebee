@@ -29,8 +29,8 @@ defmodule KinoBumblebee.MixProject do
       {:bumblebee, "~> 0.4.0"},
       # {:kino, "~> 0.9"},
       {:kino, github: "livebook-dev/kino", override: true},
-      {:nx, "~> 0.5"},
-      {:exla, "~> 0.5", only: [:dev, :test]},
+      {:nx, "~> 0.6"},
+      {:exla, "~> 0.6", only: [:dev, :test]},
       {:ex_doc, "~> 0.29", only: :dev, runtime: false}
     ]
   end
